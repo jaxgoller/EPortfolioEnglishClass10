@@ -168,7 +168,7 @@ figcaption {
 	font-size: 18px;
 }
 .imgRow {
-	margin: 5% auto;
+	margin: 0 auto;
 	clear: both;
 	width:75%;
 
@@ -178,6 +178,7 @@ figcaption {
   height: 200px;
   float: left;
   margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 /*
