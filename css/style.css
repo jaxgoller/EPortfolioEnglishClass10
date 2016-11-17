@@ -117,7 +117,9 @@ p a:hover {
 	background-color: darkslategrey;
 	min-height: 600px;
 }
-
+figcaption {
+	text-decoration: none;
+}
 #innerbody {
 	border: 2px solid black; 
 	padding: 20px;
