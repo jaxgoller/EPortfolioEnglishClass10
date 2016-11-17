@@ -107,9 +107,7 @@ p a:hover {
 #menu ul li:hover, #menu ul li.selected{
 		border: 1px solid #0ba39c;
 }
-#descriptionArea {
-	border: 1px solid black;
-}
+
 #body {
 	margin: 0;
 	padding: 0 0 30px;
@@ -117,10 +115,20 @@ p a:hover {
 	background-color: darkslategrey;
 	min-height: 600px;
 }
-figcaption {
-	text-decoration: none;
-	color: black;
-} 
+
+#body div ul {
+	margin: 0 auto;
+	padding: 24px 10px 0;
+	width: 940px;
+}
+
+#body div ul li {
+	display: block;
+	margin: 0 0 13px;
+	overflow: hidden;
+	padding: 0;
+}
+
 #innerbody {
 	border: 2px solid black; 
 	padding: 20px;
@@ -144,20 +152,6 @@ figcaption {
 	margin-top: 20px;
 }
 
-
-#body div ul {
-	margin: 0 auto;
-	padding: 24px 10px 0;
-	width: 940px;
-}
-
-#body div ul li {
-	display: block;
-	margin: 0 0 13px;
-	overflow: hidden;
-	padding: 0;
-}
-
 #home p {
 	border: 0;
 	display: block;
@@ -171,14 +165,55 @@ figcaption {
 	margin: 0 auto;
 	clear: both;
 	width:75%;
-
+	border: 2px solid black;
+	min-height: 180px;
+  min-width: 628px;
+	margin-bottom: 10px;
+  max-width: 815px;
+  max-height: 200px;
 }
 .imgCol {    
-	width: 200px;
-  height: 200px;
+	width: 25%;
+  height: 25%;
   float: left;
-  margin-left: 50px;
-  margin-bottom: 20px;
+  display: inline-block;
+  min-width: 68px;
+  min-height: 180px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.imgCol img {
+	margin: 0px;
+	width: 100%;
+	height: 75%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.imgCol p {
+	width: 100%;
+	height: 25%;
+
+}
+
+.descriptionArea {
+	float: left;
+	text-align: left;
+	width: 70%;
+	height: 100%;
+	min-width: 315px;
+	min-height: 180px;
+	padding: 5px;
+  max-width: 600px;
+  max-height: 170px;
+}
+.descriptionParagraph {
+	text-align: left;
+	margin-left: 5px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
 }
 
 /*
